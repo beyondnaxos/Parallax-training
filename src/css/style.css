@@ -14,8 +14,7 @@ body {
     min-height: 100vh;
     background: linear-gradient(#2b1055, #7597de);
     overflow-x: hidden;
-    /* overflow-y: hidden; */
-    
+    overflow-y: hidden;
 }
 
 header {
@@ -95,6 +94,15 @@ section img {
 section img#moon {
     /* allow mix / blend like photoshop */
     mix-blend-mode: screen;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin-left: 45%;
+    margin-top: 10%;
+    transform: rotate(-15deg);
+    /* big box shadow */
+    box-shadow: 0 0 100px 100px #1c0522;
 }
 
 section img#mountains_front {
